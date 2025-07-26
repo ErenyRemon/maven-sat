@@ -1,0 +1,102 @@
+* {
+  font-family: 'Almarai', sans-serif !important;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.navbar {
+  /* background-color: #000032; */
+  background-color: rgba(0, 0, 0, -0.4) !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 15px 40px !important;
+}
+
+.logo img {
+  height: 50px !important;
+}
+
+.nav-links {
+  display: flex !important;
+  gap: 25px !important;
+  list-style: none !important;
+}
+
+.nav-links li a {
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    width: 25px !important;
+    height: 25px !important;
+}
+.icon{
+    width: 25px !important;
+    height: 25px !important;
+}
+nav{
+    width: 94% !important ;
+}
+
+.nav-links li a:hover {
+    color: rgb(243, 217, 122) !important;
+
+}
+svg{
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.nav-links li a{
+        font-size: 18px !important;
+}
+.contact{
+    margin: auto !important;
+    size: 17px !important ;
+    font-weight: 400 !important;
+}
+
+.close-btn {
+  display: none; /* الافتراضي مخفي */
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  .nav-links {
+
+    position: fixed;
+    top: 0;
+    /* right: -100%; */
+    left: -100%;
+    height: 100%;
+    width: 250px;
+    background: rgba(0,0,0,0.9);
+    flex-direction: column;
+    justify-content: start;
+    align-items: self-end;
+    gap: 30px;
+    transition: left 0.3s ease;
+  }
+    .nav-links.open {
+    left: 0;
+  }
+   .close-btn {
+    display: block; /* يظهر بس في الموبايل */
+    align-self: start; /* يخليه في الركن اليمين جوة القائمة */
+    /* margin: 20px; */
+    margin-bottom: 20px;
+  }
+   .nav-links {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: white;
+  }
+}

@@ -1,0 +1,145 @@
+.row {
+  --bs-gutter-x: 0px !important;
+}
+
+.hero {
+  position: relative !important;
+  background-image: url('../../../public/bg.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  color: white !important;
+  padding: 140px 30px !important;
+  text-align: center !important;
+  height: 100vh !important;
+  background-attachment: fixed;
+  /* background-image: url("../../../public/bg.jpg"); /* صورة الخلفية */
+  background-size: cover !important;
+  background-position: center !important;
+  color: white !important;
+  padding: 140px 30px !important;
+  text-align: center !important;
+}
+
+.hero-content {
+  margin-top: 100px;
+        padding-top: 60px;
+    /* padding-bottom: 60px;
+}
+
+.hero-content h1 {
+  font-family: "Almarai", Sans-serif !important;
+  font-size: 60px !important;
+  font-weight: 900 !important;
+  font-size: 3rem !important;
+  /* margin-bottom: 20px; */
+}
+
+.hero-content p {
+  font-size: 1.5rem !important;
+  /* margin-bottom: 30px; */
+}
+
+.hero-content button {
+  padding: 0px !important;
+  font-size: 1rem !important;
+  border: none !important;
+  color: #DDC76D !important;
+  cursor: pointer !important;
+  border-radius: 5px !important;
+  background-color: rgba(0, 0, 50, -0.4) !important;
+
+}
+
+.hero-content button:hover {
+  color: white !important;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, -0.4) !important;
+  /* كحلي شفاف */
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 15px 40px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 10 !important;
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  /* الشفافية هنا 50% */
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  /* padding: 140px 30px !important; */
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.headerOne {
+  font-family: "Almarai", Sans-serif !important;
+  font-weight: 900 !important;
+  /* font-size: 60px !important; */
+  font-size: 4vw !important;
+  /* line-height: 48px !important; */
+  line-height: 1.3 !important;
+}
+
+.headerTwo {
+  font-weight: 900 !important;
+  /* line-height: 84px !important; */
+  line-height: 1.3 !important;
+  /* font-size: 60px !important; */
+  font-size: 4vw !important;
+}
+
+.divHeaderTwo {
+  width: 84% !important;
+  margin: auto !important;
+  color: #ff6900 !important;
+}
+
+.headerThree {
+  font-weight: 900 !important;
+  /* line-height: 84px !important; */
+  line-height: 1.3 !important;
+  /* font-size: 48px !important;  */
+  font-size: 3vw !important; 
+}
+
+.divSpan span {
+  font-weight: 900 !important;
+  /* line-height: 84px !important; */
+  line-height: 1.7 !important;
+  /* font-size: 36px !important; */
+  font-size: 2vw !important;
+}
+
+.divSpanColor {
+  color: #ff6900 !important;
+}
+
+.lastDiv {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.lastDiv button {
+  font-weight: 400 !important;
+  size: 16px !important;
+  line-height: 30px !important;
+}
+
+.lastDiv div span {
+  font-weight: 400 !important;
+  size: 16px !important;
+  line-height: 30px !important;
+}

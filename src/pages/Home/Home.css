@@ -1,0 +1,999 @@
+.divOne {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divOne h2 {
+    font-family: "Almarai", Sans-serif !important;
+    font-weight: 900 !important;
+    line-height: 84px;
+    font-size: 48px;
+    margin: auto;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: var(--font-headers), serif;
+    font-weight: 900;
+    line-height: 1.3em;
+    color: #171422;
+    margin: 0px;
+    font-size: 48px;
+    clear: both;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    letter-spacing: normal;
+    orphans: 2;
+    text-indent: 0px;
+    text-transform: none;
+    widows: 2;
+    word-spacing: 0px;
+    -webkit-text-stroke-width: 0px;
+    white-space: normal;
+    background-color: #ffffff;
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+    transition: 0.3s;
+
+}
+
+.divOne h2 span {
+    color: #d6111e;
+}
+
+/* Main div Two */
+.mainDivTwo {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    margin: auto;
+}
+
+/* Main div Two Right*/
+
+.mainDivTwoRight {
+    width: 25%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+
+/* Main div Two Right First */
+.mainDivTwoRightFirst,
+.mainDivTwoLeftFirst {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.mainDivTwoRightFirstRight svg,
+.mainDivTwoLeftThirdFirst svg {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.mainDivTwoRightFirstleft,
+.mainDivTwoLeftFirstleft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainDivTwoRightFirstleft h6,
+.mainDivTwoLeftFirstleft h6 {
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0px;
+    line-height: 20px;
+
+}
+
+.mainDivTwoRightFirstleft span,
+.mainDivTwoLeftFirstleft span {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+/* Main div Two Right Second */
+.mainDivTwoRightSecond {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.mainDivTwoRightSecond svg {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.mainDivTwoRightSecondleft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainDivTwoRightSecondleft h6 {
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0px;
+    line-height: 20px;
+}
+
+.mainDivTwoRightSecondleft span {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+/* Main div Two Right Third */
+.mainDivTwoRightThird {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.mainDivTwoRightThird svg {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.mainDivTwoRightThirdleft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainDivTwoRightThirdleft h6 {
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0px;
+    line-height: 20px;
+}
+
+.mainDivTwoRightThirdleft span {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+/* Main Div Two Center */
+.mainDivTwoCenter {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainDivTwoCenter img {
+    width: 90%;
+}
+
+/* main Div Two Left */
+.mainDivTwoLeft {
+    width: 25%;
+    /* background-color: #d6111e; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+
+.mainDivTwoLeftFirstRight img {
+    width: 60px;
+    height: 45px;
+
+}
+
+.mainDivThree {
+    padding: 50px 0px 50px 0px;
+    background-color: #f4f2e9;
+}
+
+.mainDivThree h2 {
+    font-family: "Almarai", Sans-serif !important;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: var(--font-headers), serif;
+    font-weight: 900;
+    line-height: 1.3em;
+    color: #171422;
+    margin: 0px;
+    font-size: 48px;
+    clear: both;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    letter-spacing: normal;
+    orphans: 2;
+    text-indent: 0px;
+    text-transform: none;
+    widows: 2;
+    word-spacing: 0px;
+    -webkit-text-stroke-width: 0px;
+    white-space: normal;
+
+
+}
+
+.mainDivThree h2 span {
+    color: #d6111e;
+}
+
+.mainDivThreeFirst {
+    background-color: #d6111e;
+}
+
+.mainDivThreeSecond {
+    background-color: aqua;
+}
+
+.mainDivThreeThird {
+    background-color: blue;
+}
+
+.mainDivThreeFourth {
+    background-color: brown;
+}
+
+.mainDivFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.sale-triangle {
+    -webkit-transform-origin-y: top;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-bottom: 45px solid transparent;
+    border-right: 45px solid red !important;
+    border-top: 50px solid transparent;
+    position: absolute;
+    top: -17px;
+    left: 30px;
+    transform: rotate(46deg);
+    padding: 0px 0px 2px 0px;
+}
+
+.saleclass {
+    color: white;
+    transform: rotate(-90deg) !important;
+    display: inline-block;
+    margin: 1px 3px 9px 12px;
+    padding: 1px 2px 0px 5px;
+    position: relative;
+    top: -8px;
+    left: 52px;
+}
+
+.mainDivFourthImages {
+    width: 210px !important;
+    height: 210px !important;
+    margin: 50px 30px !important;
+    border-radius: 10px !important;
+      transition: transform 0.5s ease; /* السموث */
+}
+
+.mainDivFourthImages:hover {
+  transform: scale(1.1); /* تكبير بسيط */
+}
+
+.mainDivFourthLinks {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    size: 18px;
+    line-height: 22px;
+
+}
+
+.mainDivFourthLinks:hover {
+    color: #d6111e;
+}
+
+.mainDivFour {
+    background-color: #f4f2e9;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.mainDivFourFirst,
+.mainDivFourSecond,
+.mainDivFourThird,
+.mainDivFourFourth {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.mainDivFourFourthCard,
+.mainDivFourThirdCard,
+.mainDivFourSecondCard,
+.mainDivFourFirstCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 0px !important;
+      position: relative; /* مهم جداً */
+  overflow: hidden;   /* يضمن ما يطلعش برا */
+
+}
+
+.mainDivFourFourthCardBody,
+.mainDivFourSecondCardBody,
+.mainDivFourThirdCardBody,
+.mainDivFourFirstCardBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mainDivFourFirstCardTitle,
+.mainDivFourSecondCardTitle,
+.mainDivFourSecondCardTitle,
+.mainDivFourThirdCardTitle,
+.mainDivFourFourthCardTitle {
+    padding: 20px 20px 16px 20px;
+    text-align: center;
+}
+
+.mainDivFourFirst,
+.mainDivFourSecond,
+.mainDivFourThird,
+.mainDivFourFourth {
+    width: 20%;
+}
+
+.mainDivFourFirstText,
+.mainDivFourSecondText,
+.mainDivFourThirdText,
+.mainDivFourFourthCardText {
+    line-height: 25px;
+    padding: 0px 38px 0px 38px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.moreInfo {
+    padding: 15px 40px 15px 40px !important;
+    background-color: #d6111e !important;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.mainDivFourFirstCardBody button,
+.mainDivFourSecondCardBody button,
+.mainDivFourThirdCardBody button,
+.mainDivFourFourthCardBody button {
+    margin: 20px 0px 50px;
+}
+
+.moreInfo:hover {
+    background-color: #020101 !important;
+    cursor: pointer !important;
+}
+
+.mainDivFive {
+    background-color: #171422;
+    padding: 50px 150px 50px 150px;
+
+}
+
+.mainDivFiveCenter {
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.mainDivFiveCenterIcon {
+    padding: 10px;
+    background-color: #2a2a2a;
+    width: 5%;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 55px;
+    height: 55px;
+}
+
+.mainDivFiveCenterIcon svg {
+    width: 50px !important;
+    height: 36px !important;
+
+}
+
+.mainDivFiveCenterHeaderOne {
+    font-family: "Almarai", Sans-serif !important;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 90px;
+    text-align: center;
+}
+
+.mainDivFiveCenterHeaderTwo {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 40px;
+    text-align: center;
+}
+
+.contactUs {
+    border-radius: 50px;
+    background-color: #6dab3c !important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    padding: 10px 20px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contactUs svg {
+    width: 30px;
+    height: 30px;
+}
+
+.mainDivSix {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    gap: 25px;
+    padding: 20px 0px;
+    overflow-x: hidden;
+}
+
+.mainDivSixLeft,
+.mainDivSixRight {
+    width: 45%;
+
+}
+
+
+
+
+.mainDivSixLeft h3 span,
+.mainDivSixRight h3 span {
+    color: #d6111e;
+}
+
+.mainDivSixLeft h3,
+.mainDivSixRight h3 {
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: var(--font-headers), serif;
+    font-weight: 900;
+    line-height: 1.3em;
+    color: #171422;
+    margin: 0px;
+    font-size: 41px;
+    clear: both;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    letter-spacing: normal;
+    orphans: 2;
+    text-indent: 0px;
+    text-transform: none;
+    widows: 2;
+    word-spacing: 0px;
+    -webkit-text-stroke-width: 0px;
+    white-space: normal;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+
+}
+
+.mainDivSixLeft img,
+.mainDivSixRight img {
+    width: 95%;
+}
+
+.mainDivSixLeft p span,
+.mainDivSixRight p span {
+    color: #d6111e;
+}
+
+.mainDivSixLeft p,
+.mainDivSixRight p {
+    font-family: "Almarai", Sans-serif !important;
+    color: #534a45;
+    line-height: 30px;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+}
+
+.mainDivSeven {
+    background-color: #171422;
+    color: white;
+    padding: 20px 150px;
+     overflow: hidden;
+}
+
+.mainDivSeven h3 span {
+    color: #d6111e;
+}
+
+.mainDivSeven h3 {
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: var(--font-headers), serif;
+    font-weight: 900;
+    line-height: 1.3em;
+    color: #ffffff;
+    margin: 0px;
+    font-size: 36px;
+    clear: both;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    letter-spacing: normal;
+    orphans: 2;
+    text-indent: 0px;
+    text-transform: none;
+    widows: 2;
+    word-spacing: 0px;
+    -webkit-text-stroke-width: 0px;
+    white-space: normal;
+    background-color: #171422;
+}
+
+.mainDivEight {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+     overflow: hidden;
+}
+
+.mainDivEightLeft img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.mainDivEightLeft {
+    width: 45%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.mainDivEightRight {
+    width: 30%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+    margin: 0px !important;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button,
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainDivEightRightBody {
+    line-height: 35px;
+}
+
+.mainDivEightRightBody span {
+    margin-bottom: 20px !important;
+}
+
+.mainDivEightRightBody ul {
+    list-style-type: square;
+    margin-top: 20PX
+}
+
+.accordion-button::after {
+    display: none !important;
+    /* يخفي السهم الأصلي */
+    size: 0px !important;
+    background-image: none !important;
+    margin-left: 0 !important;
+    content: none !important;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainDivEightRightAccordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    background-color: #D6D6D6;
+    padding: 10px;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button,
+.accordion-button,
+.accordion-body {
+    background-color: #D6D6D6 !important;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button:not(.collapsed) {
+    background-color: #D6D6D6 !important;
+    color: #020101 !important;
+
+}
+
+.accordion-header button svg {
+    width: 20px !important;
+    height: 20px !important;
+
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.0rem rgb(236, 236, 236) !important;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button,
+.accordion-button,
+.accordion-body {
+    font-family: "Almarai", Sans-serif !important;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.mainDivNine {
+    background-color: #171422;
+    color: white;
+    display: flex;
+    padding: 20px;
+     /* overflow: hidden; */
+}
+
+.mainDivNineDiv {
+    margin: auto;
+}
+
+.mainDivNine h2 {
+    font-family: var(--font-headers), serif !important;
+    font-weight: 900;
+    line-height: 62px;
+    margin: auto;
+    font-size: 48px;
+}
+
+.mainDivNine h2 span {
+    color: #d6111e;
+}
+
+.mainDivTen {
+    width: 88%;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+     overflow: hidden;
+}
+
+.mainDivTenLeft,
+.mainDivTenRight {
+    width: 44%;
+}
+
+.mainDivTenLeftBody p,
+.mainDivTenRightBody p {
+    font-weight: 400;
+}
+
+.mainDivTenLeftBody p span,
+.mainDivTenRightBody p span {
+    font-weight: 800;
+
+}
+
+.mainDivTenLeftBodyParagraph {
+    font-weight: 800 !important;
+
+}
+
+.mainDivTenLeftBody ul li {
+    font-weight: 400;
+
+}
+
+.mainDivTenLeftBody ul li span {
+    font-weight: 800;
+
+}
+
+
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 992px) {
+    .mainDivTwo {
+        flex-direction: column;
+        /* خليهم تحت بعض */
+        gap: 50px;
+        /* مسافة بينهم */
+    }
+
+    .mainDivTwoRight,
+    .mainDivTwoCenter,
+    .mainDivTwoLeft {
+        width: 100%;
+        /* كل واحد ياخد عرض الصفحة كله */
+        gap: 40px;
+
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .mainDivTwoCenter img {
+        width: 70%;
+        /* صغري الصورة شوية */
+    }
+
+    .mainDivFour {
+        flex-wrap: wrap;
+        /* يسمح إن العناصر تنزل تحت بعض */
+        gap: 20px;
+        /* مسافة بين الكروت */
+        justify-content: center;
+    }
+
+    .mainDivFourFirst,
+    .mainDivFourSecond,
+    .mainDivFourThird,
+    .mainDivFourFourth {
+        width: 45%;
+        /* كارتين في الصف */
+    }
+
+    .mainDivFive {
+        padding: 40px 50px;
+        /* نقلل المسافات */
+    }
+
+    .mainDivFiveCenterHeaderOne {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .mainDivFiveCenterHeaderTwo {
+        font-size: 14px;
+        line-height: 28px;
+        padding: 0 10px;
+    }
+
+      .mainDivTen {
+    flex-direction: column; /* يخليهم تحت بعض */
+    width: 95%;
+    gap: 20px;
+  }
+
+  .mainDivTenLeft,
+  .mainDivTenRight {
+    width: 100%;
+  }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .mainDivTwoRight,
+    .mainDivTwoLeft {
+        flex-direction: column;
+        /* بدل ما تبقى صف جنب بعض تبقى عمودي */
+        align-items: center;
+        gap: 30px;
+    }
+
+    .mainDivTwoCenter img {
+        width: 90%;
+        /* الصورة تكبر شوية */
+    }
+
+    .mainDivFourFirst,
+    .mainDivFourSecond,
+    .mainDivFourThird,
+    .mainDivFourFourth {
+        width: 90%;
+        /* كل كارت ياخد تقريباً عرض الشاشة */
+    }
+
+    .mainDivFive {
+        padding: 30px 20px;
+        /* مسافات أقل جداً */
+    }
+
+    .mainDivFiveCenter {
+        padding: 20px;
+    }
+
+    .mainDivFiveCenterIcon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .mainDivFiveCenterIcon svg {
+        width: 30px !important;
+        height: 25px !important;
+    }
+
+    .mainDivFiveCenterHeaderOne {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .mainDivFiveCenterHeaderTwo {
+        font-size: 13px;
+        line-height: 24px;
+        padding: 0 5px;
+    }
+
+    .contactUs {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .contactUs svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .mainDivSix {
+        flex-direction: column;
+        /* خليهم تحت بعض */
+        align-items: center;
+        gap: 30px;
+    }
+
+    .mainDivSixLeft,
+    .mainDivSixRight {
+        width: 100%;
+        /* كل جزء ياخد عرض كامل */
+    }
+
+    .mainDivSixLeft h3,
+    .mainDivSixRight h3 {
+        font-size: 22px;
+        line-height: 34px;
+        padding: 0 5px;
+        text-align: center;
+    }
+
+    .mainDivSixLeft p,
+    .mainDivSixRight p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .mainDivSixLeft img,
+    .mainDivSixRight img {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+
+    .mainDivSeven {
+        padding: 20px 20px;
+        /* نقلل الهوامش */
+    }
+
+    .mainDivSeven h3 {
+        font-size: 20px;
+        /* نصغر العنوان */
+        line-height: 32px;
+        padding: 0 10px;
+        /* شوية مسافة يمين وشمال */
+        text-align: center;
+    }
+
+    .mainDivEight {
+        flex-direction: column;
+        /* العناصر تبقى تحت بعض */
+        gap: 20px;
+        /* مسافة بينهم */
+        align-items: center;
+    }
+
+    .mainDivEightRight,
+    .mainDivEightLeft {
+        width: 100%;
+        /* ياخدوا عرض الشاشة */
+        text-align: center;
+    }
+
+    .mainDivEightLeft img {
+        max-width: 80%;
+        /* نصغر الصورة شوية */
+    }
+
+    .mainDivNine {
+        padding: 30px 15px;
+        /* مسافة أكبر في الموبايل */
+        text-align: center;
+    }
+
+    .mainDivNine h2 {
+        font-size: 28px;
+        /* نصغر حجم الخط */
+        line-height: 40px;
+        /* نقلل المسافة بين السطور */
+    }
+
+    .mainDivTen {
+        flex-direction: column;
+        /* يخليهم تحت بعض */
+        width: 95%;
+        gap: 20px;
+    }
+
+    .mainDivTenLeft,
+    .mainDivTenRight {
+        width: 100%;
+    }
+
+}
