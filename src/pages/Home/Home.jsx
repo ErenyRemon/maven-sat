@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import "./Home.css";
-import Button from 'react-bootstrap/Button';
+
 import { motion } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
 import Card from 'react-bootstrap/Card';
@@ -14,12 +14,8 @@ import { FaTachometerAlt } from "react-icons/fa";
 import { FaSatelliteDish } from "react-icons/fa";
 import { FaUserClock } from "react-icons/fa";
 import { MdOutlineWhatsapp } from "react-icons/md";
-import { useRef } from 'react';
-
 import { FaPlus, FaMinus } from 'react-icons/fa';
-import { BsPlus, BsDash } from "react-icons/bs";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 
 
@@ -33,33 +29,15 @@ function Home() {
 
 
     const { ref, inView } = useInView({
-        triggerOnce: true, // يعمل مرة واحدة بس
-        threshold: 0.2, // لما 20% من العنصر تظهر
+        triggerOnce: true, 
+        threshold: 0.2, 
     });
 
-
-    const accordionRef = useRef(null);
-    const isInView = useInView(accordionRef, {
-        triggerOnce: true,
-        threshold: 0.2,
-    });
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
-    const rubberBandVariants = {
-        initial: { scaleX: 1, scaleY: 1 },
-        animate: {
-            scaleX: [1, 1.25, 0.75, 1.15, 0.95, 1.05, 1],
-            scaleY: [1, 0.75, 1.25, 0.85, 1.05, 0.95, 1],
-            transition: {
-                duration: 1,
-                times: [0, 0.3, 0.4, 0.5, 0.65, 0.75, 1],
-                ease: 'easeInOut',
-            },
-        },
-    };
 
 
     return (
@@ -273,7 +251,7 @@ function Home() {
                            
                         />
                     </motion.div>
-                    {/* <img src="./06.webp" alt="" /> */}
+                    
 
                     <p>يتوفر ضمن اشتراكاتنا iptv مجموعة من القنوات المخصصة
                         <span> للأطفال </span>
@@ -308,10 +286,10 @@ function Home() {
             <div className="mainDivEight">
                 <div className="mainDivEightRight">
                     <motion.div
-                        initial={{ x: 100, opacity: 0 }} // يدخل من اليمين
-                        whileInView={{ x: 0, opacity: 1 }} // لما يدخل مجال الرؤية
+                        initial={{ x: 100, opacity: 0 }} 
+                        whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: 1 }}
-                        viewport={{ once: true, amount: 0.5 }} // يتحرك مرة واحدة لما يظهر نصه
+                        viewport={{ once: true, amount: 0.5 }} 
                         style={{ position: 'relative' }}
                     >
                         <Accordion className='mainDivEightRightAccordion' activeKey={activeKey} >
@@ -405,9 +383,9 @@ function Home() {
                 <div className="mainDivTenLeft">
                     <motion.div
                         initial={{ x: 100, opacity: 0 }}
-                        whileInView={{ x: 0, opacity: 1 }} // لما يدخل مجال الرؤية
+                        whileInView={{ x: 0, opacity: 1 }} 
                         transition={{ duration: 1 }}
-                        viewport={{ once: true, amount: 0.5 }} // يتحرك مرة واحدة لما يظهر نصه
+                        viewport={{ once: true, amount: 0.5 }} 
                         style={{ position: 'relative' }}
                     >
                         <Accordion className='mainDivTenLeftAccordion' activeKey={activeKey} alwaysOpen>

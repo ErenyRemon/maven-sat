@@ -1,9 +1,6 @@
 .footer {
-  /* background-color: #000032; */
-  /* background-color: rgba(0, 0, 50, -0.4); */
   color: white;
   text-align: center;
-  /* padding: 20px; */
   font-family: Arial, sans-serif !important;
   border-top: 5px solid red;
 }
@@ -48,7 +45,6 @@
   .footerDivOne span {
     font-size: 13px;
     line-height: 1.5;
-    /* display: block; ينزل تحت النص */
     margin-top: 5px;
   }
 

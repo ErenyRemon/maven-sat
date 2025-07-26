@@ -62,7 +62,6 @@
 
 .mainDivTwoRight {
     width: 25%;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -186,7 +185,6 @@
 /* main Div Two Left */
 .mainDivTwoLeft {
     width: 25%;
-    /* background-color: #d6111e; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -238,22 +236,6 @@
     color: #d6111e;
 }
 
-.mainDivThreeFirst {
-    background-color: #d6111e;
-}
-
-.mainDivThreeSecond {
-    background-color: aqua;
-}
-
-.mainDivThreeThird {
-    background-color: blue;
-}
-
-.mainDivThreeFourth {
-    background-color: brown;
-}
-
 .mainDivFour {
     display: flex;
     justify-content: center;
@@ -292,11 +274,11 @@
     height: 210px !important;
     margin: 50px 30px !important;
     border-radius: 10px !important;
-      transition: transform 0.5s ease; /* السموث */
+    transition: transform 0.5s ease;
 }
 
 .mainDivFourthImages:hover {
-  transform: scale(1.1); /* تكبير بسيط */
+    transform: scale(1.1);
 }
 
 .mainDivFourthLinks {
@@ -338,8 +320,8 @@
     justify-content: center;
     flex-direction: column;
     border: 0px !important;
-      position: relative; /* مهم جداً */
-  overflow: hidden;   /* يضمن ما يطلعش برا */
+    position: relative;
+    overflow: hidden;
 
 }
 
@@ -487,9 +469,6 @@
 
 }
 
-
-
-
 .mainDivSixLeft h3 span,
 .mainDivSixRight h3 span {
     color: #d6111e;
@@ -549,7 +528,7 @@
     background-color: #171422;
     color: white;
     padding: 20px 150px;
-     overflow: hidden;
+    overflow: hidden;
 }
 
 .mainDivSeven h3 span {
@@ -588,7 +567,7 @@
     width: 90%;
     margin: auto;
     gap: 40px;
-     overflow: hidden;
+    overflow: hidden;
 }
 
 .mainDivEightLeft img {
@@ -634,7 +613,6 @@
 
 .accordion-button::after {
     display: none !important;
-    /* يخفي السهم الأصلي */
     size: 0px !important;
     background-image: none !important;
     margin-left: 0 !important;
@@ -699,7 +677,6 @@ button:not(:disabled) {
     color: white;
     display: flex;
     padding: 20px;
-     /* overflow: hidden; */
 }
 
 .mainDivNineDiv {
@@ -725,7 +702,7 @@ button:not(:disabled) {
     display: flex;
     justify-content: center;
     gap: 30px;
-     overflow: hidden;
+    overflow: hidden;
 }
 
 .mainDivTenLeft,
@@ -768,18 +745,14 @@ button:not(:disabled) {
 @media (max-width: 992px) {
     .mainDivTwo {
         flex-direction: column;
-        /* خليهم تحت بعض */
         gap: 50px;
-        /* مسافة بينهم */
     }
 
     .mainDivTwoRight,
     .mainDivTwoCenter,
     .mainDivTwoLeft {
         width: 100%;
-        /* كل واحد ياخد عرض الصفحة كله */
         gap: 40px;
-
         display: flex !important;
         flex-direction: row;
         justify-content: center;
@@ -787,14 +760,11 @@ button:not(:disabled) {
 
     .mainDivTwoCenter img {
         width: 70%;
-        /* صغري الصورة شوية */
     }
 
     .mainDivFour {
         flex-wrap: wrap;
-        /* يسمح إن العناصر تنزل تحت بعض */
         gap: 20px;
-        /* مسافة بين الكروت */
         justify-content: center;
     }
 
@@ -803,12 +773,10 @@ button:not(:disabled) {
     .mainDivFourThird,
     .mainDivFourFourth {
         width: 45%;
-        /* كارتين في الصف */
     }
 
     .mainDivFive {
         padding: 40px 50px;
-        /* نقلل المسافات */
     }
 
     .mainDivFiveCenterHeaderOne {
@@ -822,16 +790,16 @@ button:not(:disabled) {
         padding: 0 10px;
     }
 
-      .mainDivTen {
-    flex-direction: column; /* يخليهم تحت بعض */
-    width: 95%;
-    gap: 20px;
-  }
+    .mainDivTen {
+        flex-direction: column;
+        width: 95%;
+        gap: 20px;
+    }
 
-  .mainDivTenLeft,
-  .mainDivTenRight {
-    width: 100%;
-  }
+    .mainDivTenLeft,
+    .mainDivTenRight {
+        width: 100%;
+    }
 
 
 }
@@ -843,14 +811,12 @@ button:not(:disabled) {
     .mainDivTwoRight,
     .mainDivTwoLeft {
         flex-direction: column;
-        /* بدل ما تبقى صف جنب بعض تبقى عمودي */
         align-items: center;
         gap: 30px;
     }
 
     .mainDivTwoCenter img {
         width: 90%;
-        /* الصورة تكبر شوية */
     }
 
     .mainDivFourFirst,
@@ -858,12 +824,10 @@ button:not(:disabled) {
     .mainDivFourThird,
     .mainDivFourFourth {
         width: 90%;
-        /* كل كارت ياخد تقريباً عرض الشاشة */
     }
 
     .mainDivFive {
         padding: 30px 20px;
-        /* مسافات أقل جداً */
     }
 
     .mainDivFiveCenter {
@@ -903,7 +867,6 @@ button:not(:disabled) {
 
     .mainDivSix {
         flex-direction: column;
-        /* خليهم تحت بعض */
         align-items: center;
         gap: 30px;
     }
@@ -911,7 +874,6 @@ button:not(:disabled) {
     .mainDivSixLeft,
     .mainDivSixRight {
         width: 100%;
-        /* كل جزء ياخد عرض كامل */
     }
 
     .mainDivSixLeft h3,
@@ -939,54 +901,43 @@ button:not(:disabled) {
 
     .mainDivSeven {
         padding: 20px 20px;
-        /* نقلل الهوامش */
     }
 
     .mainDivSeven h3 {
         font-size: 20px;
-        /* نصغر العنوان */
         line-height: 32px;
         padding: 0 10px;
-        /* شوية مسافة يمين وشمال */
         text-align: center;
     }
 
     .mainDivEight {
         flex-direction: column;
-        /* العناصر تبقى تحت بعض */
         gap: 20px;
-        /* مسافة بينهم */
         align-items: center;
     }
 
     .mainDivEightRight,
     .mainDivEightLeft {
         width: 100%;
-        /* ياخدوا عرض الشاشة */
         text-align: center;
     }
 
     .mainDivEightLeft img {
         max-width: 80%;
-        /* نصغر الصورة شوية */
     }
 
     .mainDivNine {
         padding: 30px 15px;
-        /* مسافة أكبر في الموبايل */
         text-align: center;
     }
 
     .mainDivNine h2 {
         font-size: 28px;
-        /* نصغر حجم الخط */
         line-height: 40px;
-        /* نقلل المسافة بين السطور */
     }
 
     .mainDivTen {
         flex-direction: column;
-        /* يخليهم تحت بعض */
         width: 95%;
         gap: 20px;
     }

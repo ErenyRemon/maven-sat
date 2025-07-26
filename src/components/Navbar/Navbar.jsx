@@ -17,8 +17,6 @@ function Navbar() {
         <FaBars />
       </div>
       
-      {/* <ul className="nav-links"> */}
-
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
            <li className="close-btn" onClick={() => setIsOpen(false)}>
           <FaTimes />
