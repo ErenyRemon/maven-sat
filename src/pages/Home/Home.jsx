@@ -249,6 +249,7 @@ function Home() {
                     >
                         <motion.img
                             src={`${process.env.PUBLIC_URL}/06.webp`}
+                            alt="قنوات الأطفال"
                            
                         />
                     </motion.div>
