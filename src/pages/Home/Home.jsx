@@ -86,7 +86,7 @@ function Home() {
 
                 <div className="mainDivTwoCenter">
                    
-                    <img src={`${process.env.PUBLIC_URL}/01.webp`} alt='Description of image'/>
+                    <img src={`${process.env.PUBLIC_URL}/01.webp`} alt='اشتراكات IPTV'/>
                 </div>
                 <div className="mainDivTwoLeft">
                     <div className="mainDivTwoLeftFirst">
@@ -363,7 +363,7 @@ function Home() {
                     </motion.div>
                 </div>
                 <div className="mainDivEightLeft">
-                    <img src={`${process.env.PUBLIC_URL}/08.webp`} alt='Description of image' />
+                    <img src={`${process.env.PUBLIC_URL}/08.webp`} alt='قنوات رياضية' />
                 </div>
             </div>
             <div className="mainDivNine">
