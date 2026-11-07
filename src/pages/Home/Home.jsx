@@ -85,7 +85,8 @@ function Home() {
                 </div>
 
                 <div className="mainDivTwoCenter">
-                    <img src="./01.webp" alt="" />
+                   
+                    <img src={`${process.env.PUBLIC_URL}/01.webp`} />
                 </div>
                 <div className="mainDivTwoLeft">
                     <div className="mainDivTwoLeftFirst">
@@ -135,7 +136,8 @@ function Home() {
                         <div className="sale-triangle">
                             <span className="saleclass">Sale</span>
                         </div>
-                        <a href="https://wa.me/201207710703"><Card.Img className="mainDivFourthImages" variant="top" src="./05.webp" /></a>
+                        <a href="https://wa.me/201207710703"><Card.Img className="mainDivFourthImages" variant="top" src={`${process.env.PUBLIC_URL}/05.webp`} /></a>
+                    
                         <Card.Body className="mainDivFourFirstCardBody">
                             <Card.Title className="mainDivFourFirstCardTitle">
                                 <a className='mainDivFourthLinks' href="https://wa.me/201207710703" target="_blank" rel="noopener noreferrer">
@@ -155,7 +157,7 @@ function Home() {
                         <div className="sale-triangle">
                             <span className="saleclass">Sale</span>
                         </div>
-                        <a href="https://wa.me/201207710703"><Card.Img className="mainDivFourthImages" variant="top" src="./04.webp" /></a>
+                        <a href="https://wa.me/201207710703"><Card.Img className="mainDivFourthImages" variant="top" src={`${process.env.PUBLIC_URL}/04.webp`} /></a>
                         <Card.Body className="mainDivFourSecondCardBody">
                             <Card.Title className="mainDivFourSecondCardTitle">
                                 <a className='mainDivFourthLinks' href="https://wa.me/201207710703" target="_blank" rel="noopener noreferrer">
@@ -175,7 +177,7 @@ function Home() {
                         <div className="sale-triangle">
                             <span className="saleclass">Sale</span>
                         </div>
-                        <a href="https://wa.me/201207710703"><Card.Img className="mainDivFourthImages" variant="top" src="./03.webp" /></a>
+                        <a href="https://wa.me/201207710703"><Card.Img className="mainDivFourthImages" variant="top" src={`${process.env.PUBLIC_URL}/03.webp`} /></a>
                         <Card.Body className="mainDivFourThirdCardBody">
                             <Card.Title className="mainDivFourThirdCardTitle"><a className='mainDivFourthLinks' href="https://wa.me/201207710703" target="_blank" rel="noopener noreferrer">
                                 اشتراك سيرفر X IPTV الباقة الكاملة
@@ -194,7 +196,7 @@ function Home() {
                         <div className="sale-triangle">
                             <span className="saleclass">Sale</span>
                         </div>
-                        <a href="https://wa.me/201207710703"><Card.Img className="mainDivFourthImages" variant="top" src="./02.webp" /></a>
+                        <a href="https://wa.me/201207710703"><Card.Img className="mainDivFourthImages" variant="top" src={`${process.env.PUBLIC_URL}/02.webp`} /></a>
                         <Card.Body className="mainDivFourFourthCardBody">
                             <Card.Title className="mainDivFourFourthCardTitle"> <a className='mainDivFourthLinks' href="https://wa.me/201207710703" target="_blank" rel="noopener noreferrer">
                                 اشتراك سيرفر MH PRO الباقة الكاملة
@@ -246,8 +248,7 @@ function Home() {
                         style={{ position: 'relative' }}
                     >
                         <motion.img
-                            src="./06.webp"
-                            alt=""
+                            src={`${process.env.PUBLIC_URL}/06.webp`}
                            
                         />
                     </motion.div>
@@ -269,7 +270,7 @@ function Home() {
                         viewport={{ once: true, amount: 0.5 }}
                         style={{ width: '100%' }}
                     >
-                        <img src="./07.webp" alt="قناة تعليمية" style={{ width: '100%', height: 'auto' }} />
+                        <img src={`${process.env.PUBLIC_URL}/07.webp`} alt="قناة تعليمية" style={{ width: '100%', height: 'auto' }} />
                     </motion.div>
                     <p>لا تفوت فرصة متابعة كأس العالم 2022 على البث المباشر من خلال جميع اشتراكات iptv المتوفرة لدينا ، اذ يتوفر في جميع الباقات لدينا أهم
                         <span> القنوات الرياضية </span>
@@ -362,7 +363,7 @@ function Home() {
                     </motion.div>
                 </div>
                 <div className="mainDivEightLeft">
-                    <img src="08.webp" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/08.webp`} />
                 </div>
             </div>
             <div className="mainDivNine">
